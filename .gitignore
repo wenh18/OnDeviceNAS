@@ -1,0 +1,7 @@
+pretrainedweight/*
+output/*
+results/*
+*.npy
+image/*
+*.pyc
+*.out

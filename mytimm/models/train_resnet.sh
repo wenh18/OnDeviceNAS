@@ -1,0 +1,1 @@
+python train_resnet.py \--dataset imagenet \-b 128 \--model resnet50 \--sched cosine \--epochs 400 \--lr 0.05 \--amp \--remode pixel \--reprob 0.6 \--aug-splits 3 \--aa rand-m9-mstd0.5-inc1 \--resplit \--split-bn \--jsd \--dist-bn reduce \--num-classes 1000 \--data_dir ../../../../../liyc/data/imagenet2012/
